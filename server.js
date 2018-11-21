@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const leads = require('./config/routes/api/leads');
 const app = express();
-const port = 3000;
+const port = 5000;
 const db = require('./config/db').mongoURI;
 
 //Use body parser
