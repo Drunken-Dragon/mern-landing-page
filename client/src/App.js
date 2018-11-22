@@ -9,9 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hello fullstack!</h1>
-        <div className="col-md-8">
-          <LeadForm/>
-        </div>
+        <LeadForm/>
       </div>
     );
   }
